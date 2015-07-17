@@ -1,0 +1,50 @@
+.first
+	display: block
+	padding: 90px 0
+	background-image: url("../img/first_images.png")
+	@include bacground-size(cover)
+	background-repeat: no-repeat
+	background-position: center
+	h1
+		font-size: 48px
+		font-weight: bold
+		text-transform: uppercase
+	p
+		font-size: 28px
+		color: #FFF
+	.textLine
+		display: block
+		width: 201px
+		height: 7px
+		background-image: url('../img/Line.png') 
+		background-repeat: no-repeat
+		@include bacground-size(100%)
+		margin: 20px 0
+	&__input
+		background: $trans
+		width: 279px
+		height: 49px
+		@include border-radius(5px)
+		@include background-clip(padding-box)
+		border: 1px solid #fff
+		display: inline-block
+		color: #FFF
+		font-size: 16px 
+		padding: 0 20px
+	&__sub
+		display: inline-block
+		font-size: 20px
+		font-weight: bold
+		color: #FFF
+		background: linear-gradient(to bottom, #ffc06b, #ff7d01)
+		@include text-shadow(0 1px 1px rgba(0,0,0,.72))
+		width: 239px
+		height: 48px
+		border: 1px solid #ff7900
+		@include border-radius(5px)
+		@include background-clip(padding-box)	
+		margin-left: 15px	
+		
+
+
+ 	

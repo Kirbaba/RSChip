@@ -1,0 +1,22 @@
+@mixin border-radius($radius) 
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+	
+@mixin background-clip($clip)
+	-o-background-clip: 	$clip 
+	background-clip: 	$clip 
+
+@mixin transition($t)
+	-moz-transition: all $t linear
+	-o-transition: all $t linear
+	-webkit-transition: all $t linear
+
+@mixin bacground-size($size)
+	-webkit-background-size: $size 
+	-o-background-size: $size 
+	background-size: $size 
+	
+@mixin text-shadow ($shadow)
+	text-shadow: $shadow  

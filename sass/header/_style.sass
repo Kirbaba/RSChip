@@ -1,0 +1,59 @@
+$head_h: 160px
+.head
+	display: block
+	height: $head_h	
+	&__logo
+		display: table-cell
+		vertical-align: middle
+		height: $head_h 			
+		img
+			display: table-cell
+			vertical-align: middle
+	&__contacts
+		display: table-cell
+		vertical-align: middle
+		height: $head_h
+		text-align: center
+		h3
+			color: #f70
+			font-size: 40px
+			font-weight: bold
+			margin-bottom: 0
+		p
+			color: #393939
+			font-size: 18px 
+			font-weight: bold 
+	&__city
+		display: table-cell
+		vertical-align: middle
+		height: $head_h
+		.btn-group			
+			.btn:first-child
+				border: none
+				color: #232323
+				font-size: 26px
+			.btn-lg .caret
+				width: 15px
+				height: 10px
+				border: none
+				background: url("../img/Open-Icon.png")
+				background-repeat: no-repeat  
+			.btn-default
+				background: rgba(255, 255, 255, 0)
+				&:hover, &:active, &:focus
+					background: rgba(255, 255, 255, 0)
+					-webkit-box-shadow: none 
+					box-shadow: none 
+		.dropdown-menu
+			padding: 0
+			width: 200px
+			a
+				li
+					color: #232323
+					font-size: 22px
+				&:hover
+					li
+						background-color: #ff7800 
+
+
+		
