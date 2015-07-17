@@ -68,8 +68,12 @@
     			</article>
     		</div>
     		<div class="col-lg-5">
-    			<div class="calc">
-    				
+    			<div class="first__calc__select" value="Модель">
+					<select>
+						<option class="test">Here is the first option</option>
+						<option class="test">The second option</option>
+						<i class="arrow"></i>
+					</select>
     			</div>
     		</div>
     		
