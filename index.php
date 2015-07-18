@@ -68,13 +68,55 @@
     			</article>
     		</div>
     		<div class="col-lg-5">
-    			<div class="first__calc__select" value="Модель">
-					<select>
-						<option class="test">Here is the first option</option>
-						<option class="test">The second option</option>
-						<i class="arrow"></i>
-					</select>
-    			</div>
+    			<form action="#" method="post"> 				
+    				
+    				
+	    			<div class="customSelect">
+						<select data-placeholder="Марка автомобиля">
+							<option></option>
+							<option>Here is the first option</option>
+							<option>The second option</option>
+						</select>					
+	    			</div>	
+	    			<div class="customSelect">
+						<select data-placeholder="Модель">
+							<option></option>
+							<option>Here is the first option</option>
+							<option>The second option</option>
+						</select>					
+	    			</div>	
+	    			<div class="customSelect">
+						<select data-placeholder="Двигатель">
+							<option></option>
+							<option>Here is the first option</option>
+							<option>The second option</option>
+						</select>					
+	    			</div>	
+	    			<div class="customSelect">
+						<select data-placeholder="Год выпуска">
+							<option></option>
+							<option>Here is the first option</option>
+							<option>The second option</option>
+						</select>					
+	    			</div>
+    			 	<div class="calc__check">
+    					<input type="checkbox" name="vpusk"/>
+    					<label for="vpusk">Установлен "холодный впуск"</label>
+    				</div>
+    				<div class="calc__check">
+    					<input type="checkbox" name="filter"/>
+    					<label for="filter">Фильтр нулевого сопротивления</label>
+					</div>
+					<div class="calc__check">
+    					<input type="checkbox" name="mehanic"/>
+    					<label for="mehanic">Механическая КПП</label>
+    				</div>
+    			
+    				<div>
+    					<input type="submit" class="calc__submit" value="Расчитать прирост" />
+    				</div>
+    			</form>
+
     		</div>
     		
     	</div>

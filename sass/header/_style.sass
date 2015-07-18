@@ -2,6 +2,19 @@ $head_h: 160px
 .head
 	display: block
 	height: $head_h	
+	position: relative
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		right: 0
+		bottom: -80px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 9999 
 	&__logo
 		display: table-cell
 		vertical-align: middle
@@ -54,6 +67,7 @@ $head_h: 160px
 				&:hover
 					li
 						background-color: #ff7800 
+
 
 
 		

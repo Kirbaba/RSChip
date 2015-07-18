@@ -4,7 +4,7 @@
 	background-image: url("../img/first_images.png")
 	@include bacground-size(cover)
 	background-repeat: no-repeat
-	background-position: center
+	background-position: center	
 	h1
 		font-size: 48px
 		font-weight: bold
@@ -43,44 +43,24 @@
 		border: 1px solid #ff7900
 		@include border-radius(5px)
 		@include background-clip(padding-box)	
-		margin-left: 15px	
-	&__calc__select
-		position: relative
-		display: inline-block
-		font-size: 16px
-		select
-			display: inline-block
-			border: 1px solid #bbb
-			padding: 4px 175px 3px 5px
-			margin: 0
-			height: 67px
-			font: inherit 
-			outline: none
-			line-height: 1.2
-			background: #fff
-			-webkit-appearance: none
-			@include border-radius(6px)
-			.test
-				font-size: 16px
-				padding: 10px
-			&:focus 
-				box-shadow: #c00 0 0 3px 1px
-		&:after 
-			content: url('../img/arrow395.png')
-			text-align: center
-			position: absolute
-			top: 0
-			right: 0
-			bottom: 0
-			font-size: 0.7em
-			line-height: 67px
-			padding: 0 4px
-			background: $orange
-			color: white
-			pointer-events: none
-			border-radius: 0 6px 6px 0
-			width: 50px
-			
+		margin-left: 15px
+		&:hover, &:active, &:focus
+			outline: none 	
+	.calc__check
+		display: table
+		margin-bottom: 10px
+		label
+			color: #fff
+			font-size: 14px
+			display: table-cell
+			vertical-align: middle
+			font-weight: 500
+			padding-left: 25px
+	.calc__submit
+		@extend .first__sub
+		width: 296px
+		height: 61px
+		margin-left: 0
 
 
 
