@@ -116,9 +116,32 @@
     					<input type="submit" class="calc__submit" value="Расчитать прирост" />
     				</div>
     			</form>
+    		</div>    		
+    	</div>
+    </section>
 
-    		</div>
-    		
+    <section class="second">
+    	<div class="container">
+    		<h1>Знаете ли вы, почему опытные водители
+			предпочитают <b>RS чип тюнинг</b>?</h1>
+			<div class="second__underText"></div>
+			<div class="col-lg-6">					
+				<p class="second__p__small">Настоящая заводская мощность вашего двигателя “задушена” в 4 этапа прямо на заводе. <br>
+				<p><b><span class="orange">RS чип тюнинг</span></b> 
+				– это значительные улучшения функциональных возможностей силового агрегата, включая экономию и увеличение ресурса. </p>
+			</div>
+			<div class="col-lg-6">
+				<div class="second__engine">	
+					<div class="second__engine__thue">
+						<p>Настоящая заводская мощность</p>
+						<h2>281</h2>
+					</div>
+					<div class="second__engine__new">
+						<h2>250</h2>
+						<p>Мощность после задушки</p>
+					</div>
+				</div>
+			</div>
     	</div>
     </section>
 <?php wp_footer(); ?>
