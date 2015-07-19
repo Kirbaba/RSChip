@@ -170,6 +170,7 @@
 		height: 43px
 		border: 2px solid #C6CCD2 
 		margin: 20px 0
+		color: #000 
 	&__sub
 		@extend .first__sub
 		width: 302px
@@ -288,7 +289,7 @@
 			width: 180px
 			height: 130px
 			margin: 0 auto
-			position: absolute
+			position: relative
 			bottom: 0
 		.bonus1
 			background-image: url("../img/bonus1.png")
@@ -305,12 +306,13 @@
 			background-image: url("../img/bonus4.png")
 .sixth
 	display: block
-	padding: 100px 0
+	padding: 75px 0 100px
 	background-image: url("../img/bg6.png")
 	background-position: center
 	background-repeat: no-repeat 
 	@include background-size(cover)
 	position: relative
+	color: #FFF 
 	&:after 
 		content: ""
 		position: absolute
@@ -326,6 +328,121 @@
 		-o-transform: rotate(180deg)
 		-webkit-transform: rotate(180deg)
 		-moz-transform: rotate(180deg)
+	h1
+		font-style: italic
+		font-size: 56px
+		font-weight: bold
+		text-transform: uppercase
+		margin-bottom: 0
+	h3
+		font-size: 46px
+		font-family: $thinFont 
+		margin-top: 0
+		i
+			b
+				font-family: Helvetica
+				font-weight: 900
+	h4
+		font-style: italic
+		font-size: 44px
+		font-family: $lightFont
+		b
+			font-style: normal
+			font-family: Helvetica 		 
+	p
+		font-size: 16px
+		margin-bottom: 30px		 
+		b
+			font-size: 21px
+			margin-bottom: 50px			
+	&__input
+		@extend .first__input
+		background: #FFF
+		border: 2px solid #9A4C06
+		width: 315px
+		height: 47px
+		margin: 20px 10px 20px 0
+		color: #000 
+	&__sub
+		@extend .first__sub
+		width: 640px
+		height: 79px
+		font-size: 34px
+		margin-left: 0
+		margin: 20px 0
+.seventh
+	display: block
+	position: relative
+	padding: 75px 0 100px
+	background-image: url("../img/2.png")
+	background-position: center right
+	background-repeat: no-repeat
+	@include background-size(48%) 
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		right: 0
+		bottom: -80px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 1
+	h1
+		color: #272727
+		font-size: 48px
+		text-align: center
+		margin-bottom: 40px 
+	p
+		color: #282828
+		font-size: 21px
+		margin-bottom: 30px
+	&__higher
+		font-size: 30px
+		font-weight: bold
+.eighth
+	display: block
+	position: relative
+	padding: 75px 0 100px
+	color: #FFF
+	background-image: url("../img/bg8.png")
+	background-position: center
+	background-repeat: no-repeat 
+	@include background-size(cover) 
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		left: 0
+		bottom: -25px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 1
+		-o-transform: rotate(180deg)
+		-webkit-transform: rotate(180deg)
+		-moz-transform: rotate(180deg)
+	h1
+		font-style: italic
+		font-weight: bold
+		text-align: center
+		font-size: 56px
+		margin-bottom: 40px
+	p
+		font-size: 30px
+		text-align: justify
+		font-family: $lightFont 
+		margin-bottom: 28px
+		b
+			font-family: Helvetica 
+
+
+
+
 			
 			 	 
 
