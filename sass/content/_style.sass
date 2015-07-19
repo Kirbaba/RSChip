@@ -221,7 +221,40 @@
 				font-size: 22px
 			p
 				font-size: 11px
-			
+.fourth
+	display: block
+	position: relative
+	padding: 50px 0 100px
+	background-image: url("../img/bg4.png")
+	background-repeat: no-repeat
+	@include background-size(cover)
+	color: 	#fff
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		left: 0
+		bottom: -25px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 1
+		-o-transform: rotate(180deg)
+		-webkit-transform: rotate(180deg)
+		-moz-transform: rotate(180deg)
+	p
+		font-size: 24px
+		text-align: justify
+.fifth
+	display: block
+	padding: 50px 0
+	color: #272727
+	position: relative
+	h1
+		font-size: 48px
+		text-align: center	 
 
 
 	 
