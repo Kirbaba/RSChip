@@ -249,12 +249,85 @@
 		text-align: justify
 .fifth
 	display: block
-	padding: 50px 0
+	padding: 50px 0 75px
 	color: #272727
 	position: relative
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		right: 0
+		bottom: -80px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 1
 	h1
 		font-size: 48px
-		text-align: center	 
+		text-align: center
+		margin-bottom: 50px
+	&__bonuse
+		display: block
+		width: 270px
+		height: 270px
+		background-image: url("../img/Outline.png")
+		background-repeat: no-repeat
+		padding: 50px 5px
+		position: relative
+		p
+			color: #2f2f2f
+			font-size: 20px
+			font-weight: bold
+			text-align: center
+			display: block
+			height: 55px
+		i
+			display: block
+			width: 180px
+			height: 130px
+			margin: 0 auto
+			position: absolute
+			bottom: 0
+		.bonus1
+			background-image: url("../img/bonus1.png")
+			background-position: center
+			background-repeat: no-repeat
+		.bonus2
+			@extend .bonus1
+			background-image: url("../img/bonus2.png")
+		.bonus3
+			@extend .bonus1
+			background-image: url("../img/bonus3.png") 
+		.bonus4
+			@extend .bonus1
+			background-image: url("../img/bonus4.png")
+.sixth
+	display: block
+	padding: 100px 0
+	background-image: url("../img/bg6.png")
+	background-position: center
+	background-repeat: no-repeat 
+	@include background-size(cover)
+	position: relative
+	&:after 
+		content: ""
+		position: absolute
+		width: 55%
+		height: 0
+		left: 0
+		bottom: -25px
+		margin-left: -54px
+		border: 54px solid transparent
+		border-top-color: #fff
+		border-right: 0
+		z-index: 1
+		-o-transform: rotate(180deg)
+		-webkit-transform: rotate(180deg)
+		-moz-transform: rotate(180deg)
+			
+			 	 
 
 
 	 

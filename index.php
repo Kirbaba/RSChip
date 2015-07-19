@@ -16,7 +16,7 @@
     <header>    	
 		<div class="head">
 			<div class="container">
-	    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 	    			<div class="head__logo">
 	    				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="placeholder+image">
 	    			</div>
@@ -202,9 +202,39 @@
 	<section class="fifth">
 		<div class="container">
 			<h1>За счет <b>увеличения мощности</b> вы получаете  <span class="orange">бонусы</span> в виде:</h1>
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+				<div class="fifth__bonuse">
+					<p>Плавность хода</p>
+					<i class="bonus1"></i>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+				<div class="fifth__bonuse">
+					<p>Безопасность при обгонах</p>
+					<i class="bonus2"></i>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+				<div class="fifth__bonuse">
+					<p>Уверенность езды в городских условиях</p>
+					<i class="bonus3"></i>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+				<div class="fifth__bonuse">
+					<p>Экономия топлива</p>
+					<i class="bonus4"></i>
+				</div>
+			</div>
 		</div>
 	</section>
     <!-- /.fifth -->
+
+	<section class="sixth">
+		<div class="container">
+			<h1></h1>
+		</div>
+	</section>
 
 <?php wp_footer(); ?>
 </body>
