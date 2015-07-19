@@ -1,14 +1,22 @@
 @font-face {
-    font-family: 'GothamPro';
-    src: url('../fonts/gothaproreg-webfont.ttf');
-    src: url('../fonts/gothaproreg-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/gothaproreg-webfont.woff2') format('woff2'),
-    url('../fonts/gothaproreg-webfont.woff') format('woff'),
-    url('./fonts/gothaproreg-webfont.ttf') format('truetype'),
-    url('../fonts/gothaproreg-webfont.svg#gotham_proregular') format('svg');
-
+    font-family: 'HelveticaNeueCyrThin';
+    src: url('../fonts/HelveticaNeueCyrThin.eot');
+    src: url('../fonts/HelveticaNeueCyrThin.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyrThin.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyrThin.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyrThin.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueCyrThin.svg#HelveticaNeueCyrThin') format('svg');
 }
 
+@font-face {
+    font-family: 'HelveticaNeueCyrLight';
+    src: url('../fonts/HelveticaNeueCyrLight.eot');
+    src: url('../fonts/HelveticaNeueCyrLight.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueCyrLight.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyrLight.woff') format('woff'),
+         url('../fonts/HelveticaNeueCyrLight.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueCyrLight.svg#HelveticaNeueCyrLight') format('svg');
+}
 
 body {
     width: 100%;
