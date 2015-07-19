@@ -2,7 +2,7 @@
 	display: block
 	padding: 90px 0
 	background-image: url("../img/first_images.png")
-	@include bacground-size(cover)
+	@include background-size(cover)
 	background-repeat: no-repeat
 	background-position: center	
 	h1
@@ -18,7 +18,7 @@
 		height: 7px
 		background-image: url('../img/Line.png') 
 		background-repeat: no-repeat
-		@include bacground-size(100%)
+		@include background-size(100%)
 		margin: 20px 0
 	&__input
 		background: $trans
@@ -64,10 +64,10 @@
 .second
 	display: block
 	position: relative
-	padding: 60px 0
-	-webkit-box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.25)
-	-moz-box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.25)
-	box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.25)
+	padding: 60px 0	
+	border-bottom: 50px solid #fff 
+	border-image: url('../img/bordBot.png') 70
+	
 	h1
 		width: 85%
 		padding-left: 15px
@@ -82,16 +82,42 @@
 		height: 1px
 		background-image: linear-gradient(to right, #4e5860 0%, #ff7e00 100%)
 	.second__p__small
-		font-size: 29px
+		font-size: 27px
 	p
 		color: #272727
-		font-size: 32px
+		font-size: 31px
 	&__engine
-		width: 682px
-		height: 514px
+		width: 100%
+		height: 485px
 		background-image: url('../img/engine.png') 
-		background-position: center
+		background-position: 60% 50%
 		background-repeat: no-repeat
+		@include background-size (85%)
+		.second__engine__thue
+			display: block
+			width: 35%
+			text-align: center
+			h2
+				color: #3B4A71
+				font-size: 28px
+				font-weight: 900
+				margin-top: 32px
+
+			p
+				color: #3F3E40
+				font-size: 20px
+				font-weight: 700 
+		.second__engine__new
+			@extend .second__engine__thue
+			position: absolute
+			bottom: 0
+			right: -15px
+			h2
+				color: #F05A28
+				margin-bottom: 34px
+.third
+
+	 
 
 
 

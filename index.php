@@ -125,12 +125,12 @@
     		<h1>Знаете ли вы, почему опытные водители
 			предпочитают <b>RS чип тюнинг</b>?</h1>
 			<div class="second__underText"></div>
-			<div class="col-lg-6">					
-				<p class="second__p__small">Настоящая заводская мощность вашего двигателя “задушена” в 4 этапа прямо на заводе. <br>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">					
+				<p class="second__p__small">Настоящая <b>заводская мощность</b> вашего двигателя “задушена” в 4 этапа прямо на заводе. <br>
 				<p><b><span class="orange">RS чип тюнинг</span></b> 
-				– это значительные улучшения функциональных возможностей силового агрегата, включая экономию и увеличение ресурса. </p>
+				– это значительные <b>улучшения функциональных возможностей</b> силового агрегата, включая экономию и увеличение ресурса. </p>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 				<div class="second__engine">	
 					<div class="second__engine__thue">
 						<p>Настоящая заводская мощность</p>
@@ -144,6 +144,8 @@
 			</div>
     	</div>
     </section>
+
+    <section class="third"></section>
 <?php wp_footer(); ?>
 </body>
 </html>
