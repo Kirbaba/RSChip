@@ -13,6 +13,7 @@
 </head>
 
 <body>
+	<div class="up" id="toTop"></div>
     <header>    	
 		<div class="head">
 			<div class="container">
