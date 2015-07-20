@@ -284,6 +284,29 @@
 		</div>
 	</section>
 
+	<section class="ninth">
+		<div class="container">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1>Наши контакты</h1>
+				<div class="ninth__underText"></div>
+				<h4>Свяжитесь с нами, и мы свяжемся с вами.</h4>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<p><i class="ninth__city"></i>г.  Москва, ул. Уличная 8</p>
+					<p><i class="ninth__email"></i>randomness@expire.com</p>
+					<p><i class="ninth__phone"></i>Phone: +(123) 456 7890 </p>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+					<form class="ninth__form" action="#" method="post">
+						<input type="text" class="ninth__input" placeholder="Введите ваше имя">
+						<input type="email" class="ninth__input" placeholder="Введите телефон">
+						<input type="text" class="ninth__input__lg" placeholder="Удобное время для звонка">
+						<input type="submit" class="ninth__sub" value="Заказать звонок">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <?php wp_footer(); ?>
 </body>
 </html>
