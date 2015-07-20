@@ -212,25 +212,25 @@
 		<div class="container">
 			<h1>За счет <b>увеличения мощности</b> вы получаете  <span class="orange">бонусы</span> в виде:</h1>
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
-				<div class="fifth__bonuse">
+				<div class="fifth__bonuse ">
 					<p>Плавность хода</p>
 					<i class="bonus1"></i>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
-				<div class="fifth__bonuse">
+				<div class="fifth__bonuse fifth__bonuse2">
 					<p>Безопасность при обгонах</p>
 					<i class="bonus2"></i>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
-				<div class="fifth__bonuse">
+				<div class="fifth__bonuse fifth__bonuse3">
 					<p>Уверенность езды в городских условиях</p>
 					<i class="bonus3"></i>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
-				<div class="fifth__bonuse">
+				<div class="fifth__bonuse fifth__bonuse4">
 					<p>Экономия топлива</p>
 					<i class="bonus4"></i>
 				</div>

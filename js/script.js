@@ -160,18 +160,14 @@ $(function() {
 })(jQuery);
 
 $(function(){
-$(window).scroll(function() {
-        $('.first__slide').each(function(){
-        var imagePos = $(this).offset().top;
-
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos = topOfWindow) {  
+    $('.first__slide').each(function(){
                 $(this).addClass("animated");            
                 $(this).addClass("visible");
-                $(this).addClass("slideInLeft");            
-            }
+                $(this).addClass("slideInLeft"); 
         });
 
+$(window).scroll(function() {
+        
         $('.second__slide').each(function(){
         var imagePos2 = $(this).offset().top;
 
@@ -180,6 +176,42 @@ $(window).scroll(function() {
                 $(this).addClass("animated");            
                 $(this).addClass("visible");
                 $(this).addClass("slideInRight");            
+            }
+        });
+
+         $('.third__numbers').each(function(){
+        var imagePos3 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos3-300 < topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("zoomIn"); 
+                $('.third__text').addClass("animated");   
+                $('.third__text').addClass("visible");
+                $('.third__text').addClass("fadeInLeft");       
+            }
+        });
+
+         $('.fourth p').each(function(){
+        var imagePos3 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos3-500 < topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("fadeInDown");      
+            }
+        });
+
+        $('.fifth__bonuse').each(function(){
+        var imagePos3 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos3-200 < topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("fadeInDown");      
             }
         });
     });
