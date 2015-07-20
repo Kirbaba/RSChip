@@ -306,7 +306,33 @@
 			</div>
 		</div>
 	</section>
+	<section class="map">
+		<div id="map_canvas" style="width:100%; height:100%"></div>
+	</section>
 
+	<footer class="footer">
+		<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="soc">			
+					<a href="#nowhere"><i class="soc__fb"></i></a>
+					<a href="#nowhere"><i class="soc__tw"></i></a>
+					<a href="#nowhere"><i class="soc__in"></i></a>
+					<a href="#nowhere"><i class="soc__gp"></i></a>
+					<a href="#nowhere"><i class="soc__ig"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<a href="#nowhere">
+					<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="placeholder+image">
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<p class="footer__copyr">
+					© Copyright 2015
+				</p>
+			</div>
+		</div>
+	</footer>
 <?php wp_footer(); ?>
 </body>
 </html>

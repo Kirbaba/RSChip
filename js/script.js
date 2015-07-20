@@ -1,21 +1,22 @@
 
 /*-------------GOOGLE MAPS-----------------*/
 
-/*function initialize() {
+function initialize() {
 
-    var myLatlng = new google.maps.LatLng(59.934602, 30.334607);
     var mapOptions = {
-        center: new google.maps.LatLng(59.934602, 30.334607),
+        center: new google.maps.LatLng(55.662878, 37.540873),
         zoom: 17,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false
-    };
+    };    
     var map = new google.maps.Map(document.getElementById("map_canvas"),
-        mapOptions);
-    var marker = new google.maps.Marker({
-        position: myLatlng,
+        mapOptions);    
+    var image = img.url + 'map-marker.png';
+    var myLatLng = new google.maps.LatLng(55.662561,37.540873);
+    var beachMarker = new google.maps.Marker({
+        position: myLatLng,
         map: map,
-        title:"Ditlogistic"
+        icon: image
     });
 }
 
@@ -27,7 +28,7 @@ function loadScript() {
 }
 
 window.onload = loadScript;
-*/
+
 
 
 $(function() {
