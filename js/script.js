@@ -9,8 +9,7 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false
     };    
-    var map = new google.maps.Map(document.getElementById("map_canvas"),
-        mapOptions);    
+    var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);    
     var image = img.url + 'map-marker.png';
     var myLatLng = new google.maps.LatLng(55.662561,37.540873);
     var beachMarker = new google.maps.Marker({
@@ -52,7 +51,7 @@ $(function() {
         $('html,body').animate({
             scrollTop: top
         }, 1000);
-    });
+    });    
 });
 
 (function($) {
@@ -159,3 +158,33 @@ $(function() {
 
 });
 })(jQuery);
+
+$(function(){
+$(window).scroll(function() {
+        $('.first__slide').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos = topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("slideInLeft");            
+            }
+        });
+
+        $('.second__slide').each(function(){
+        var imagePos2 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos2-200 < topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("slideInRight");            
+            }
+        });
+    });
+});
+
+$(window).scroll(function() {
+        
+    });

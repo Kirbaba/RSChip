@@ -5,6 +5,8 @@
 	@include background-size(cover)
 	background-repeat: no-repeat
 	background-position: center	
+	&__slide
+		visibility: hidden
 	h1
 		font-size: 48px
 		font-weight: bold
@@ -40,6 +42,7 @@
 		color: #FFF
 		background: linear-gradient(to bottom, #ffc06b, #ff7d01)
 		@include text-shadow(0 1px 1px rgba(0,0,0,.72))
+		@include transition(0.5s)
 		width: 239px
 		height: 48px
 		border: 1px solid #ff7900
@@ -47,7 +50,8 @@
 		@include background-clip(padding-box)	
 		margin-left: 15px
 		&:hover, &:active, &:focus
-			outline: none 	
+			outline: none
+			opacity: 0.8 	
 	.calc__check
 		display: table
 		margin-bottom: 10px
@@ -69,7 +73,8 @@
 	padding: 60px 0	
 	border-bottom: 50px solid #fff 
 	border-image: url('../img/bordBot.png') 70
-	
+	&__slide
+		@extend .first__slide
 	h1
 		width: 85%
 		padding-left: 15px
