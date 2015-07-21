@@ -337,6 +337,8 @@
 	@include background-size(cover)
 	position: relative
 	color: #FFF 
+	&__content
+		visibility: hidden
 	&:after 
 		content: ""
 		position: absolute
@@ -402,6 +404,8 @@
 	background-position: center right
 	background-repeat: no-repeat
 	@include background-size(48%) 
+	&__text
+		visibility: hidden
 	&:after 
 		content: ""
 		position: absolute
@@ -461,6 +465,7 @@
 		text-align: justify
 		font-family: $lightFont 
 		margin-bottom: 28px
+		visibility: hidden
 		b
 			font-family: Helvetica 
 .ninth
@@ -525,8 +530,15 @@
 	&__sub
 		@extend .first__sub
 		float: right
+		
+	.ninth__contact__info
+		visibility: hidden
+	.ninth__contact__form
+		visibility: hidden
 .map
 	height: 500px
+#map_canvas
+	visibility: hidden
 
 
 	

@@ -214,6 +214,67 @@ $(window).scroll(function() {
                 $(this).addClass("fadeInDown");      
             }
         });
+
+         $('.sixth__content').each(function(){
+        var imagePos4 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos4-200 < topOfWindow) {  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("fadeInDownBig");      
+            }
+        });
+
+          $('.seventh__text').each(function(){
+        var imagePos5 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos5-200 < topOfWindow) {
+                $('.seventh__text h1').addClass("pulse")  
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("slideInLeft");      
+            }
+        });
+
+             $('.eighth p').each(function(){
+        var imagePos6 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos6-400 < topOfWindow) {
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("fadeInDown");      
+            }
+        });
+
+
+             $('.ninth__contact__info').each(function(){
+        var imagePos7 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos7-400 < topOfWindow) {
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("zoomIn"); 
+                $('.ninth__contact__form').addClass("animated");   
+                $('.ninth__contact__form').addClass("visible");
+                $('.ninth__contact__form').addClass("fadeInRight");      
+            }
+        });
+
+
+        $('#map_canvas').each(function(){
+        var imagePos7 = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos7-400 < topOfWindow) {
+                $(this).addClass("animated");            
+                $(this).addClass("visible");
+                $(this).addClass("fadeInUp");                    
+            }
+        });
     });
 });
 
