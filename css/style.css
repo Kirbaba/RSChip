@@ -229,3 +229,13 @@ nav.navbar.navbar-inverse.navig {
     width: 30%;
     vertical-align: top;
 }
+
+.jqselect, .jq-selectbox__select-text{
+    width: 100%;
+}
+.jq-selectbox__dropdown{
+    width: 100%;
+}
+.jq-selectbox__dropdown ul{
+    width: 100%;
+}

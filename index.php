@@ -151,10 +151,10 @@
 						<h2>Результаты прироста для вашего автомобиля</h2>
 						<div class="third__text__model">
 							<p id="versionInfo">X6 / xDrive35d (286) / 2013</p>
-							<!-- Убери катиринку -->
-							<img src="<?php bloginfo('template_directory'); ?>/img/bmw_icon.png" alt="placeholder+image">
+							<!-- Убери катиринку
+							<img src="<?php /*bloginfo('template_directory');*/ ?>/img/bmw_icon.png" alt="placeholder+image">-->
 						</div>
-						<a href="#nowhere">сменить авто</a>
+						<!--<a href="#nowhere">сменить авто</a>-->
 						<form action="#">
 							<input type="email" class="third__input" placeholder="Введите e-mail">
 							<input type="submit" class="third__sub" value="Отправить себе на e-mail"></input>
