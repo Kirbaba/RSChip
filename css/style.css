@@ -238,4 +238,5 @@ nav.navbar.navbar-inverse.navig {
 }
 .jq-selectbox__dropdown ul{
     width: 100%;
+    max-height: 250px;
 }
