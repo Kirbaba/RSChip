@@ -56,9 +56,9 @@ $(function() {
 
 (function($) {
         $(function() {
-            $('input, select').styler({
-                selectSearch: true
-            });
+            //$('input, select').styler({
+            //    selectSearch: true
+            //});
         });
         })(jQuery);
 
@@ -281,3 +281,75 @@ $(window).scroll(function() {
 $(window).scroll(function() {
         
     });
+
+/*----------------SELECT--------------*/
+$(document).ready(function(){
+    $('#mark').on('change', function () {
+        var val = $(this).val();
+        $('#version').html('<option value="0">Выберите тип двигателя</option>');
+        $('#year').html('<option value="0">Выберите год</option>');
+        //alert(val);
+        if(val!=0){
+            $.ajax({
+                url: myajax.url, //url, к которому обращаемся
+                type: "POST",
+                data: "action=getModel&idMark=" + val, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+                success: function (data) {
+                    $('#model').html(data);
+                }
+            });
+        }
+
+    });
+    $('#model').on('change', function () {
+        var val = $(this).val();
+        //alert(val);
+        if(val!=0){
+            $.ajax({
+                url: myajax.url, //url, к которому обращаемся
+                type: "POST",
+                data: "action=getVersion&idModel=" + val, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+                success: function (data) {
+                    $('#version').html(data);
+                }
+            });
+        }
+    });
+    $('#version').on('change', function () {
+        var val = $(this).val();
+        //alert(val);
+        if(val!=0){
+            $.ajax({
+                url: myajax.url, //url, к которому обращаемся
+                type: "POST",
+                data: "action=getYear", //данные, которые передаем. Обязательно для action указываем имя нашего хука
+                success: function (data) {
+                    $('#year').html(data);
+                }
+            });
+        }
+    });
+
+    $('#submitAuto').on('click', function () {
+        var val = $('#version').val();
+        var year = $('#year').val();
+
+        if(val!=0){
+            $.ajax({
+                url: myajax.url, //url, к которому обращаемся
+                type: "POST",
+                data: "action=getInfo&idVersion="+val, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+                success: function (data) {
+                    var unpackedData = JSON.parse(data.slice(0,-1));
+
+                    $("#hpChipInfo").html(unpackedData.hpChip);
+                    $("#hpInfo").html(unpackedData.hp);
+                    $("#nmDiffInfo").html('+' + unpackedData.nmDiff + ' н.м.');
+                    $("#hpDiffInfo").html('+' + unpackedData.hpDiff + ' л.с.');
+                    $("#versionInfo").html(unpackedData.mark + ' \\ ' + unpackedData.model + ' \\ ' + unpackedData.version + ' \\ ' + year );
+                }
+            });
+        }
+        return false;
+    });
+});

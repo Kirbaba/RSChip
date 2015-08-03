@@ -69,35 +69,27 @@
 	    			</article>
 	    		</div>
 	    		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
-	    			<form action="#" method="post"> 				
-	    				
-	    				
+	    			<form action="#" method="post">
+						<div class="test"></div>
 		    			<div class="customSelect">
-							<select data-placeholder="Марка автомобиля">
-								<option></option>
-								<option>Here is the first option</option>
-								<option>The second option</option>
+							<select id="mark" data-placeholder="Марка автомобиля">
+								<option>Выберите марку автомобиля</option>
+								<?= selectMark();?>
 							</select>					
 		    			</div>	
 		    			<div class="customSelect">
-							<select data-placeholder="Модель">
-								<option></option>
-								<option>Here is the first option</option>
-								<option>The second option</option>
+							<select id="model" data-placeholder="Модель">
+								<option>Выберите модель автомобиля</option>
 							</select>					
 		    			</div>	
 		    			<div class="customSelect">
-							<select data-placeholder="Двигатель">
-								<option></option>
-								<option>Here is the first option</option>
-								<option>The second option</option>
+							<select id="version" data-placeholder="Двигатель">
+								<option>Выберите тип двигателя</option>
 							</select>					
 		    			</div>	
 		    			<div class="customSelect">
-							<select data-placeholder="Год выпуска">
-								<option></option>
-								<option>Here is the first option</option>
-								<option>The second option</option>
+							<select id="year" data-placeholder="Год выпуска">
+								<option>Выберите год выпуска</option>
 							</select>					
 		    			</div>
 	    			 	<div class="calc__check">
@@ -114,7 +106,7 @@
 	    				</div>
 	    			
 	    				<div>
-	    					<input type="submit" class="calc__submit" value="Расчитать прирост" />
+	    					<input type="submit" id="submitAuto" class="calc__submit" value="Расчитать прирост" />
 	    				</div>
 	    			</form>
 	    		</div> 
@@ -135,12 +127,12 @@
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 					<div class="second__engine">	
-						<div class="second__engine__thue">
+						<div  class="second__engine__thue">
 							<p>Настоящая заводская мощность</p>
-							<h2>281</h2>
+							<h2 id="hpChipInfo">281</h2>
 						</div>
 						<div class="second__engine__new">
-							<h2>250</h2>
+							<h2 id="hpInfo">250</h2>
 							<p>Мощность после задушки</p>
 						</div>
 					</div>
@@ -158,7 +150,8 @@
 	    			<div class="third__text">    			
 						<h2>Результаты прироста для вашего автомобиля</h2>
 						<div class="third__text__model">
-							<p>X6 / xDrive35d (286) / 2013</p>
+							<p id="versionInfo">X6 / xDrive35d (286) / 2013</p>
+							<!-- Убери катиринку -->
 							<img src="<?php bloginfo('template_directory'); ?>/img/bmw_icon.png" alt="placeholder+image">
 						</div>
 						<a href="#nowhere">сменить авто</a>
@@ -171,11 +164,11 @@
 	    		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 	    			<div class="third__numbers">
 	    				<div class="third__numbers__first">
-	    					<h3>+85 л.с.</h3>
+	    					<h3 id="hpDiffInfo">+85 л.с.</h3>
 	    					<p>лошадиных<br>сил</p>
 	    				</div>
 	    				<div class="third__numbers__second">
-	    					<h3>+101 н.м.</h3>
+	    					<h3 id="nmDiffInfo">+101 н.м.</h3>
 	    					<p>крутящего<br>момента</p>
 	    				</div>
 	    				<div class="third__numbers__third">
