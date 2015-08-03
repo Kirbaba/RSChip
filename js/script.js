@@ -56,9 +56,9 @@ $(function() {
 
 (function($) {
         $(function() {
-            //$('input, select').styler({
-            //    selectSearch: true
-            //});
+            $('input, select').styler({
+                selectSearch: false
+            });
         });
         })(jQuery);
 
@@ -296,6 +296,7 @@ $(document).ready(function(){
                 data: "action=getModel&idMark=" + val, //данные, которые передаем. Обязательно для action указываем имя нашего хука
                 success: function (data) {
                     $('#model').html(data);
+                    $('input, select').trigger('refresh');
                 }
             });
         }
@@ -311,6 +312,7 @@ $(document).ready(function(){
                 data: "action=getVersion&idModel=" + val, //данные, которые передаем. Обязательно для action указываем имя нашего хука
                 success: function (data) {
                     $('#version').html(data);
+                    $('input, select').trigger('refresh');
                 }
             });
         }
@@ -325,6 +327,7 @@ $(document).ready(function(){
                 data: "action=getYear", //данные, которые передаем. Обязательно для action указываем имя нашего хука
                 success: function (data) {
                     $('#year').html(data);
+                    $('input, select').trigger('refresh');
                 }
             });
         }
@@ -347,6 +350,7 @@ $(document).ready(function(){
                     $("#nmDiffInfo").html('+' + unpackedData.nmDiff + ' н.м.');
                     $("#hpDiffInfo").html('+' + unpackedData.hpDiff + ' л.с.');
                     $("#versionInfo").html(unpackedData.mark + ' \\ ' + unpackedData.model + ' \\ ' + unpackedData.version + ' \\ ' + year );
+                    $('input, select').trigger('refresh');
                 }
             });
         }
