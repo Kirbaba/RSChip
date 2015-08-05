@@ -347,8 +347,8 @@ $(document).ready(function(){
 
                     $("#hpChipInfo").html(unpackedData.hpChip);
                     $("#hpInfo").html(unpackedData.hp);
-                    $("#nmDiffInfo").html('+' + unpackedData.nmDiff + ' н.м.');
-                    $("#hpDiffInfo").html('+' + unpackedData.hpDiff + ' л.с.');
+                    $("#nmDiffInfo").html('+' + unpackedData.nmDiff );
+                    $("#hpDiffInfo").html('+' + unpackedData.hpDiff );
                     $("#versionInfo").html(unpackedData.mark + ' \\ ' + unpackedData.model + ' \\ ' + unpackedData.version + ' \\ ' + year );
                     $('input, select').trigger('refresh');
                 }

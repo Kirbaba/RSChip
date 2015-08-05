@@ -164,20 +164,20 @@
 	    		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
 	    			<div class="third__numbers">
 	    				<div class="third__numbers__first">
-	    					<h3 id="hpDiffInfo">+85 л.с.</h3>
-	    					<p>лошадиных<br>сил</p>
+	    					<h3 id="hpDiffInfo">+85 </h3>
+	    					<!--<p>лошадиных<br>сил</p>-->
 	    				</div>
 	    				<div class="third__numbers__second">
-	    					<h3 id="nmDiffInfo">+101 н.м.</h3>
-	    					<p>крутящего<br>момента</p>
+	    					<h3 id="nmDiffInfo">+101 </h3>
+	    					<!--<p>крутящего<br>момента</p>-->
 	    				</div>
 	    				<div class="third__numbers__third">
 	    					<h3>+23%</h3>
-	    					<p>динамика<br>разгона</p>
+	    					<!--<p>динамика<br>разгона</p>-->
 	    				</div>
 	    				<div class="third__numbers__fourth">
 	    					<h3>+15%</h3>
-	    					<p>отклик<br>педали</p>
+	    					<!--<p>отклик<br>педали</p>-->
 	    				</div>
 	    			</div>
 	    		</div>
