@@ -401,45 +401,50 @@ a:hover, a:active, a:focus {
   .third__numbers {
     display: block;
     position: relative;
-    height: 450px;
-    background-image: url("../img/numb.png");
+    height: 350px;
+    background-image: url("../img/numb2.png");
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: contain;
     visibility: hidden; }
     .third__numbers__first, .third__numbers__second, .third__numbers__third, .third__numbers__fourth {
       position: absolute;
-      width: 150px;
+      width: 120px;
       text-align: center;
-      left: 40px;
-      top: 4%; }
+      left: 1%;
+      top: 50%; }
       .third__numbers__first h3, .third__numbers__second h3, .third__numbers__third h3, .third__numbers__fourth h3 {
-        font-size: 38px;
+        font-size: 30px;
         font-family: "HelveticaNeueCyrLight";
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        color: #0074ac; }
       .third__numbers__first p, .third__numbers__second p, .third__numbers__third p, .third__numbers__fourth p {
         margin-top: 0;
         font-size: 18px; }
     .third__numbers__second {
-      left: 38%;
-      top: 32%; }
+      left: 21%;
+      top: 50%; }
       .third__numbers__second h3 {
-        font-size: 32px; }
+        font-size: 30px;
+        color: #d76348; }
       .third__numbers__second p {
         font-size: 16px; }
     .third__numbers__third {
       width: 100px;
-      left: 65%;
-      top: 21%; }
+      left: 62%;
+      top: 50%; }
       .third__numbers__third h3 {
-        font-size: 28px; }
+        font-size: 30px;
+        color: #fc8b3c; }
       .third__numbers__third p {
         font-size: 14px; }
     .third__numbers__fourth {
-      left: 85%;
-      top: 12%;
+      left: 83%;
+      top: 50%;
       width: 70px; }
       .third__numbers__fourth h3 {
-        font-size: 22px; }
+        font-size: 30px;
+        color: #fead1d; }
       .third__numbers__fourth p {
         font-size: 11px; }
 
