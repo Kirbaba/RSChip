@@ -226,7 +226,7 @@ $(window).scroll(function() {
             }
         });
 
-          $('.seventh__text').each(function(){
+      $('.seventh__text').each(function(){
         var imagePos5 = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
