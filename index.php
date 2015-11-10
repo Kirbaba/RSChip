@@ -17,14 +17,14 @@
     <header>    	
 		<div class="head">
 			<div class="container">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-lg-6 col-md-4 col-sm-4 col-xs-6">
 	    			<div class="head__logo">
 	    				<a href="#nowhere">
 	    					<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="placeholder+image">
 	    				</a>
 	    			</div>
 	    		</div>
-	    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+	    		<div class="col-lg-6 col-md-8 col-sm-8 col-xs-6">
 	    			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 	    				<div class="head__city">
 	    				
@@ -54,7 +54,7 @@
     <section class="first">
     	<div class="container">
 			<div class="first__slide">
-	    		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+	    		<div class="col-lg-7 col-md-6 col-sm-12 col-xs-7">
 	    			<article>
 	    				<h1 class="orange">Чип тюнинг</h1>
 	    				<div class="textLine"></div>
@@ -68,7 +68,7 @@
 	    				</form>
 	    			</article>
 	    		</div>
-	    		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+	    		<div class="col-lg-5 col-md-6 col-sm-12 col-xs-5">
 	    			<form action="#" method="post">
 						<div class="test"></div>
 		    			<div class="customSelect">
@@ -120,12 +120,12 @@
 	    		<h1>Знаете ли вы, почему опытные водители
 				предпочитают <b>RS чип тюнинг</b>?</h1>
 				<div class="second__underText"></div>
-				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">					
+				<div class="col-lg-5 col-md-12 col-sm-12 col-xs-5">					
 					<p class="second__p__small">Настоящая <b>заводская мощность</b> вашего двигателя “задушена” в 4 этапа прямо на заводе. <br>
 					<p><b><span class="orange">RS чип тюнинг</span></b> 
 					– это значительные <b>улучшения функциональных возможностей</b> силового агрегата, включая экономию и увеличение ресурса. </p>
 				</div>
-				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+				<div class="col-lg-7 col-md-9 col-md-offset-2 col-sm-11 col-xs-7">
 					<div class="second__engine">	
 						<div  class="second__engine__thue">
 							<p>Настоящая заводская мощность</p>
@@ -146,7 +146,7 @@
     		<div class="third_slide">
 	    		<h1>ЧИП-ТЮНИНГ <span class="orange"><b>RSCHIP</b>	</span></h1>
 	    		<h3> снимет все заводские ограничения</h3>
-	    		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+	    		<div class="col-lg-5 col-md-12 col-sm-12 col-xs-5">
 	    			<div class="third__text">    			
 						<h2>Результаты прироста для вашего автомобиля</h2>
 						<div class="third__text__model">
@@ -161,7 +161,7 @@
 						</form>
 					</div>
 	    		</div>
-	    		<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+	    		<div class="col-lg-7 col-md-9 col-md-offset-2 col-sm-11 col-xs-7">
 	    			<div class="third__numbers">
 	    				<div class="third__numbers__first">
 	    					<h3 id="hpDiffInfo">+85 </h3>
@@ -204,25 +204,25 @@
 	<section class="fifth">
 		<div class="container">
 			<h1>За счет <b>увеличения мощности</b> вы получаете  <span class="orange">бонусы</span> в виде:</h1>
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+			<div class="col-lg-3 col-md-6 col-sm-12 col-xs-3">
 				<div class="fifth__bonuse ">
 					<p>Плавность хода</p>
 					<i class="bonus1"></i>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+			<div class="col-lg-3 col-md-6 col-sm-12 col-xs-3">
 				<div class="fifth__bonuse fifth__bonuse2">
 					<p>Безопасность при обгонах</p>
 					<i class="bonus2"></i>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+			<div class="col-lg-3 col-md-6 col-sm-12 col-xs-3">
 				<div class="fifth__bonuse fifth__bonuse3">
 					<p>Уверенность езды в городских условиях</p>
 					<i class="bonus3"></i>
 				</div>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-3">
+			<div class="col-lg-3 col-md-6 col-sm-12 col-xs-3">
 				<div class="fifth__bonuse fifth__bonuse4">
 					<p>Экономия топлива</p>
 					<i class="bonus4"></i>
@@ -234,7 +234,7 @@
 
 	<section class="sixth">
 		<div class="container">
-			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 				<div class="sixth__content">
 					<h1>УНИКАЛЬНЫЕ УСЛОВИЯ</h1>
 					<h3>установки и эксплуатации<i><b class="orange"> RS чипа</b></i></h3>
@@ -296,14 +296,14 @@
 				<h1>Наши контакты</h1>
 				<div class="ninth__underText"></div>
 				<h4>Свяжитесь с нами, и мы свяжемся с вами.</h4>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-4">
 					<div class="ninth__contact__info">
 						<p><i class="ninth__city"></i>г.  Москва, ул. Уличная 8</p>
 						<p><i class="ninth__email"></i>randomness@expire.com</p>
 						<p><i class="ninth__phone"></i>Phone: +(123) 456 7890 </p>
 					</div>
 				</div>
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-8">
 					<div class="ninth__contact__form">
 						<form class="ninth__form" action="#" method="post">
 							<input type="text" class="ninth__input" placeholder="Введите ваше имя">
@@ -322,7 +322,7 @@
 
 	<footer class="footer">
 		<div class="container">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+			<div class="col-lg-4 col-md-4 col-sm-5 col-xs-4">
 				<div class="soc">			
 					<a href="#nowhere"><i class="soc__fb"></i></a>
 					<a href="#nowhere"><i class="soc__tw"></i></a>
@@ -336,7 +336,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="placeholder+image">
 				</a>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+			<div class="col-lg-4 col-md-4 col-sm-3 col-xs-4">
 				<p class="footer__copyr">
 					© Copyright 2015
 				</p>

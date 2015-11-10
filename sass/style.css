@@ -778,4 +778,83 @@ a:hover, a:active, a:focus {
     text-align: left;
     margin-top: 60px; }
 
+@media only screen and (max-width: 1050px) {
+  .head__logo img {
+    width: 100%;
+    height: auto; }
+
+  input.first__sub, .first input.calc__submit, input.third__sub, input.sixth__sub, input.ninth__sub {
+    margin: 10px 0;
+    width: 279px; }
+
+  input.third__sub {
+    margin: 20px 10px;
+    width: 279px; }
+
+  .fifth__bonuse {
+    margin: 15px auto; }
+
+  .sixth__input:before, .sixth__input:after {
+    display: table;
+    content: " "; }
+
+  .sixth__input:after {
+    clear: both; }
+
+  input.sixth__sub {
+    width: 98%; }
+
+  .sixth__input {
+    width: 48%; }
+
+  .seventh h1 {
+    font-size: 46px; }
+
+  .ninth p {
+    text-align: center; }
+    .ninth p i {
+      margin-right: 0; }
+
+  .footer img {
+    width: 100%;
+    height: auto; } }
+@media only screen and (max-width: 770px) {
+  .head__contacts h3 {
+    font-size: 35px; }
+  .head__contacts p {
+    font-size: 17px; }
+
+  .first__input, .third__input, .ninth__input, .ninth__input__lg, .sixth__input {
+    width: 50%;
+    float: none; }
+
+  input.first__sub, .first input.calc__submit, input.third__sub, input.sixth__sub, input.ninth__sub {
+    width: 50%; }
+
+  input.third__sub {
+    margin-left: 0; }
+
+  input.sixth__input {
+    width: 75%; }
+
+  input.sixth__sub {
+    width: 75%; }
+
+  .seventh h1 {
+    font-size: 36px; }
+
+  .seventh {
+    padding: 75px 0 340px;
+    background-position: 50% 95%;
+    -webkit-background-size: 45%;
+    -o-background-size: 45%;
+    background-size: 45%; }
+
+  input.ninth__input__lg {
+    width: 100%; }
+
+  .ninth__input, .ninth__input__lg {
+    width: 48%;
+    float: left; } }
+
 /*# sourceMappingURL=style.css.map */
